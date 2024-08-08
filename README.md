@@ -28,7 +28,7 @@ async def ping_websocket(uri):
     except Exception as e:
         print(f"Failed to connect: {e}")
 
-uri = "ws://localhost:8053/ws"
+uri = "ws://localhost:8053/wsping"
 
 asyncio.get_event_loop().run_until_complete(ping_websocket(uri))
 ```
