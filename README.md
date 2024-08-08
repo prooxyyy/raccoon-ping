@@ -34,6 +34,8 @@ asyncio.get_event_loop().run_until_complete(ping_websocket(uri))
 ```
 
 # Build and run
+* Configure `LISTEN_PORT` in `.env` file
+
 If you are using Windows to build the server for Linux, use `build.bat` script.
 
 Or you can build it by your self using `go build -o raccoon-ping main.go`
